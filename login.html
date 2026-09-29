@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login Page</title>
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(141, 0, 0);
+            /*transparent white*/
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 15px;
+            position: relative;
+            top: 70px;
+            border: 2px white dotted;
+        }
+
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: wheat;
+            position: relative;
+            top: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            color: wheat;
+            position: relative;
+            left: 20px;
+        }
+        h4, marquee{
+            color: wheat;
+            position: relative;
+            left: 20px;
+
+        }
+        input{
+            width: 300px;
+            height: 30px;
+            border-radius: 20px;
+            border: none;
+            position: relative;
+            left: 30px;
+            
+        }
+        button{
+            width: 350px;
+            height: 30px;
+            position: relative;
+            left: 20px;
+            border-radius: 10px;
+            background-color: black;
+            color: wheat;
+        }
+        button:hover{
+            background-color: rgb(141, 0, 0);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LOGIN</h1>
+        <marquee direction="left">Welcome back Welcome back Welcome back </marquee>
+        <input type="text" placeholder="Username"><br><br>
+        <input type="email" placeholder="enter your account email"><br><br>
+        <input type="text" placeholder="Password"><br>
+        <h4>Don't want to use this account?<a href="signup.html">create new account</a></h4><br>
+        <button> <a href="movies.html">Confirm</a></button>
+    </div>
+</body>
+</html>
